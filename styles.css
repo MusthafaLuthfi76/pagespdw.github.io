@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  header .greeting {
+    flex: 1;
+    font-size: 23px;
+    font-family: 'Lobster', cursive;
+  }
+  
+  header .time-date {
+    flex: 1;
+    text-align: right;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  #carousel {
+    flex: 2;
+    overflow: hidden;
+  }
+  
+  #carousel img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 50px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.logo {
+    color: green;
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+    font-size: 26px;
+}
+.menu {
+    display: flex;
+    gap: 40px; 
+    font-size: 26px;
+}
+.search-bar input[type='text'] {
+   padding-left :30px; 
+   border-radius :25px; 
+   border :none; 
+   height :40px; 
+   width :300px; 
+ } 
+
+ .search-bar input[type='text']:focus { 
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+ } 
+
+ .search-bar i {  
+     position:center;  
+     left :650px ;  
+     top :15px ;  
+     color:green ; 
+  } 
+
+  #join-btn{
+      background-color:green ;
+      color:white ;
+      border:none ;
+      padding-left :10 px ;
+      padding-right :10 px ;
+  }
+
+  #join-btn:hover{
+      cursor:pointer ;
+  }
+
+  .paragraph-box {
+    margin-top: 10px;
+    padding: 100px;
+    background-color: white;
+    border-radius: 5px;
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-top: 0;
+      color: #333;
+    }
+  }
+  
+  .paragraph-box p {
+    font-size: 22px;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+  }
+
+
+  
+  
